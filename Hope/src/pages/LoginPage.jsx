@@ -16,7 +16,7 @@ const LoginPage = () => {
       alert("Please install MetaMask!");
       return;
     }
-
+  console.log("qwhjbdxjsbxb")
     try {
       const accounts = await ethereum.request({ method: "eth_requestAccounts" });
       setAccount(accounts[0]);
